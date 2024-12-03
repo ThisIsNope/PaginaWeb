@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Unidad 4</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../../css/style4.css">
+        <link rel="shortcut icon" href="../../images/elote.png">
+    </head>
+    <body>
+        <header>
+            Arquitectura De Computadoras
+            <a href="https://saltillo.tecnm.mx/" style="display: inline-flex; align-items: center; margin-left: 30px;">
+                <img src="../../images/tec-logo - copia.png" style="width: auto; height: auto;"/>
+            </a>
+            <a href="https://itsaltillo.mindbox.app/login/alumno" style="display: inline-flex; align-items: center; margin-left: 20px;">
+                <img src="../../images/mindbox - copia.png" style="width: auto; height: auto;"/>
+            </a>
+            <a href="https://www.facebook.com/TecNMcampusSaltillo" style="display: inline-flex; align-items: center; margin-left: 20px;">
+                <img src="../../images/facebook - copia.png" style="width: auto; height: auto;"/>
+            </a>
+            <a href="https://www.instagram.com/tecnmitsaltillo?igsh=aWw0bms5OWl6MzR2" style="display: inline-flex; align-items: center; margin-left: 20px;">
+                <img src="../../images/Instagram_logo_2022.svg.png" style="width: auto; height: auto;"/>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100083062494503" style="display: inline-flex; align-items: center; margin-left: 20px;">
+                <img src="../../images/capitulo.png" style="width: auto; height: auto;"/>
+            </a>
+        </header>
+        <div class="menu-container">
+            <a href="../../index.html" class="menu">Inicio</a>
+            <a href="unidad-1.html" class="menu">Unidad 1</a>
+            <a href="unidad-2.html" class="menu">Unidad 2</a>
+            <a href="unidad-3.html" class="menu">Unidad 3</a>
+            <a href="#" class="menu" id="select">Unidad 4</a>
+            <a href="../Practicas/practicas.html" class="menu">Practicas</a>
+        </div>
+        <div class="presentacion">
+            <h1 class="unidad4"><b>Unidad 4 Procesamiento paralelo</b></h1>
+            <div class="headering">
+                <img src="../../images/paralelo.jpeg">
+            </div>
+            <h1 style="text-align: center;">4.1 Aspectos basicos de la computación paralela</h1>
+            <div class="contenedor-1">
+                <p>La computación paralela se basa en la idea de dividir un problema en tareas más pequeñas y procesarlas de manera
+                    simultánea utilizando múltiples recursos de computación. Esto permite un procesamiento más rápido y eficiente en
+                    comparación con los enfoques secuenciales tradicionales. Algunos aspectos fundamentales de la computación
+                    paralela incluyen la sincronización de tareas, la comunicación entre procesos y la gestión de recursos.
+                </p>
+                <img src="../../images/computacion paralela.jpg" style="background-color: rgba(0, 0, 0, 0.366); border: 2px dotted black;">
+            </div>
+            <h1 style="text-align: center;">4.2 Tipos de computación paralela</h1>
+            <div class="contenedor-2">
+                <p>Existen varios tipos de computación paralela que se utilizan en diferentes contextos y escenarios.
+                    Algunos de los enfoques más comunes incluyen el procesamiento paralelo a nivel de bit, a nivel de instrucción,
+                    a nivel de datos y a nivel de tarea. Estos enfoques se diferencian en cómo se dividen y procesan las tareas y
+                    los datos.
+                </p>
+            </div>
+            <h2>4.2.1 Clasificación</h2>
+            <div class="contenedor-2">
+                <p>La clasificación de la computación paralela puede realizarse en función de la forma en que se dividen las tareas y
+                    los datos, así como de la forma en que se coordinan y comunican los procesos paralelos. Algunas clasificaciones
+                    comunes incluyen la computación paralela a nivel de bit, a nivel de instrucción, a nivel de datos y
+                    a nivel de tarea.
+                </p>
+            </div>
+            <h2>4.2.2 Arquitectura de computadoras secuenciales</h2>
+            <div class="contenedor-2">
+                <p>La arquitectura de computadores secuencial se refiere a los sistemas informáticos tradicionales en los que las
+                    instrucciones se ejecutan una tras otra en secuencia. Este tipo de arquitectura sigue siendo común en muchas
+                    computadoras personales y estaciones de trabajo.
+                </p>
+            </div>
+            <h2>4.2.3 Organización de direcciones de memoria</h2>
+            <div class="contenedor-2">
+                <p>La organización de direcciones de memoria se refiere a cómo se asignan y acceden a las direcciones de memoria en
+                    un sistema de computación paralela. Esto incluye consideraciones como la memoria compartida, la memoria
+                    distribuida y las técnicas de direccionamiento utilizadas para acceder a los datos en paralelo.
+                </p>
+            </div>
+            <h1 style="text-align: center;">4.3 Sistemas de memoria(compartida). Multiprocesadores</h1>
+            <div class="contenedor-3">
+                <p>Los sistemas de memoria compartida son un enfoque de computación paralela en el que múltiples procesadores acceden
+                    a una misma área de memoria compartida. Esto permite a los procesadores compartir datos y comunicarse de manera
+                    eficiente. Dentro de los sistemas de memoria compartida, existen dos tipos principales de redes: las redes de
+                    medio compartida y las redes conmutadas.
+                </p>
+            </div>
+            <h2>4.3.1 Redes de interconexión dinámicas o indirectas</h2>
+            <div class="contenedor-3">
+                <p>Las redes de medio compartida son un tipo de arquitectura de memoria compartida en la que los procesadores se
+                    conectan físicamente a un bus compartido o a una red de interconexión. Los procesadores pueden leer y escribir
+                    en la memoria compartida a través de este medio compartido.
+                </p>
+            </div>
+            <h2>4.3.2 Redes conmutuas</h2>
+            <div class="contenedor-3">
+                <p>Las redes conmutadas, por otro lado, utilizan interruptores o conmutadores para establecer conexiones entre los
+                    procesadores y la memoria compartida. Estas redes ofrecen una mayor escalabilidad y capacidad de comunicación
+                    en comparación con las redes de medio compartida.
+                </p>
+            </div>
+            <h1 style="text-align: center;">4.4 Sistemas de memoria construida. Multicomputadores</h1>
+            <div class="contenedor-4">
+                <p>Los sistemas de memoria construida son una forma de organización de la memoria en la computación paralela en la
+                    que cada procesador tiene su propia memoria local. Esto permite una mayor independencia entre los procesadores
+                    y reduce la necesidad de acceder a una memoria compartida.
+                </p>
+            </div>
+            <h2>4.4.1 Redes de interconexión estaticas</h2>
+            <div class="contenedor-4">
+                <p>El término clúster (del inglés cluster, "grupo" o "racimo") se aplica a los conjuntos o conglomerados de computadoras
+                    construidos mediante la utilización de hardwares comunes y que se comportan como si fuesen una única computadora.
+                    La tecnología de clústeres ha evolucionado en apoyo de actividades que van desde aplicaciones de supercómputo y
+                    software de misiones críticas, servidores web y comercio electrónico, hasta bases de datos de alto rendimiento,
+                        entre otros usos. El cómputo con clústeres surge como resultado de la convergencia de varias tendencias actuales
+                        que incluyen la disponibilidad de microprocesadores económicos de alto rendimiento y redes de alta velocidad,
+                        el desarrollo de herramientas de software para cómputo distribuido de alto rendimiento, así como la creciente
+                        necesidad de potencia computacional para aplicaciones que la requieran.
+                </p>
+            </div>
+            <h1 style="text-align: center;">4.5 Casos de estudio</h1>
+            <div class="contenedor-5">
+                <p>En el campo de la computación paralela, existen numerosos casos de estudio que han demostrado la eficacia y
+                    los beneficios de los enfoques paralelos en diferentes dominios. Algunos ejemplos incluyen el uso de computación
+                    paralela en simulaciones científicas, análisis de grandes conjuntos de datos, renderizado de gráficos y
+                    modelado de sistemas complejos.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
